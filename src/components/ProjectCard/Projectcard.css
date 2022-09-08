@@ -1,0 +1,71 @@
+.project-card{
+    background-image: linear-gradient(to bottom, #000000, #1a191a, #2b2a2d, #3c3e42, #4d5357);}
+.project-name{ 
+    font-size: xxx-large;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.project-container{ 
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    
+}
+.project-image{  
+    background: #11101073;
+    padding: 1.2rem 1rem;
+    box-shadow: 0 6px 13px 0px rgba(112, 109, 109, 0.2), 0 6px 20px 0 rgba(43, 42, 42, 0.19);
+}
+.project-image img{
+    width: 100% ;
+}
+.project-button {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.project-button .btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: rgb(24, 213, 144);
+    color: #222;
+    
+}
+
+.project-title{
+    color: #fff;
+    padding: 1rem 0;
+}
+.project-description p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 840px) {
+    .project-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media screen and (max-width: 740px) {
+    .project-container{
+        max-width: 90%;
+        height:min-content;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-button {
+        flex-direction: column;
+    }
+    .project-button .btn{
+        margin: 0.5rem 0;
+       
+    }
+}

@@ -1,0 +1,61 @@
+.hero-container{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+
+
+}
+.hero-container::before{
+    content: "";
+    background-image: url("../../images/project3.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.hero-container-about::before{
+    background-image: url("../../images/About.jpg");
+}
+.hero-info{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.hero-info h1{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.hero-info p{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+   font-stretch: wider;
+}
+
+@media screen and (max-width: 640px) {
+    .hero-info h1 {
+        font-size: 2rem;
+        margin: 0 5px;
+
+    }
+    .hero-info p{
+        font-size: 1.5rem;
+        margin: 0 10%;
+        padding: 0 10%;
+        width: 100%;
+    }
+
+}

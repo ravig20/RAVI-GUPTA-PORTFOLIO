@@ -1,0 +1,184 @@
+.Allabout{
+
+    background-image: linear-gradient(to bottom, #000000, #1a191a, #2b2a2d, #3c3e42, #4d5357);
+}
+.AboutMe{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.AboutMe-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start; 
+    padding: 0 1rem;
+    color: rgb(173, 202, 202);
+    margin-bottom: 1% ;
+    
+}
+.AboutMe-container p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+   text-align: start;
+   width: 70%;
+}
+
+.heading-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+.heading-info h3 {
+    margin-top: 2% ;
+    margin-bottom: 5%;
+}
+.heading-info h1 {
+    color: aquamarine;
+}
+.AboutMe-skills{
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 0 1rem;
+    margin-bottom: 1% ; 
+}
+.AboutMe-skills .btn{
+    color: aquamarine;
+    text-align: center;
+}
+.Allabout h1{
+    text-align: center;
+    padding: 2.5% 0 0.3% 0 ;
+    font-size: xxx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my-info p{
+    padding: 2%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my-info ul li{
+    padding-left: 10%;
+    color: rgb(164, 244, 244);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills-container h1{
+   text-align: center;
+   color: aqua;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 2%;
+}
+.skills-key{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 5rem;
+    
+}
+.skills-key .btn{
+    border-radius: 30px;
+    font-size: 0.9rem;
+    width: auto;
+    background: rgb(138, 198, 92);
+    color: rgb(255, 253, 253);
+    font-weight: 700; 
+}
+.skills-key .btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+  }
+@media screen and (max-width: 1150px){
+    .AboutMe-container p{
+        font-size: 1.2rem;
+    }
+    .skills-key{
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0 10%;
+        
+    }
+}
+@media screen and (max-width: 990px){
+    .AboutMe-container{
+        width: 50%;
+        font-size: 1rem;
+    }
+    .AboutMe-skills{
+        width: 50%;
+    }
+    .skills-key{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}
+@media screen and (max-width: 750px){
+    .AboutMe{
+        flex-direction: column;
+        
+    }
+    .AboutMe-container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .AboutMe-skills{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutMe-container p{
+        text-align: center;
+        width: 100%;
+    }
+    .skills-key{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
+@media screen and (max-width: 540px){
+    .skills-key{
+        grid-gap: 10px;
+        padding-bottom: 5rem;
+        
+    }
+    .skills-key .btn{
+        border-radius: 30px;
+        font-size: 0.5rem;
+        width: auto;
+        font-weight: 500; 
+    }
+}
+@media screen and (max-width: 450px){
+    .AboutMe-skills div{
+        padding-left: 20%;
+    }
+    .skills-key{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+}
+@media screen and (max-width: 285px){
+    .skills-key{
+        grid-gap: 7px;
+        
+        
+    }
+    .skills-key .btn{
+        border-radius: 30px;
+        font-size: 0.3rem;
+        width: auto;
+        font-weight: 300; 
+    }
+    
+}
