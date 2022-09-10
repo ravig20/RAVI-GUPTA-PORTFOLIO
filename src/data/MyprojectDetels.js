@@ -2,6 +2,8 @@ import PetShopApp from "../../src/images/petShopApp.png"
 import dictionaryappimage from "../../src/images/dictionaryappimage.png"
 import jockapp from "../../src/images/jockapp.png"
 import privatetalk from "../../src/images/private-talk-messaging-app.png"
+import portfolio from "../../src/images/portfolio.png"
+import socialmedia from "../../src/images/socialmedia.png"
 
 const CardData = [
     {
@@ -12,6 +14,25 @@ const CardData = [
         view: "https://private-talk-messaging.herokuapp.com",
         sourceCode: "https://github.com/ravig20/MERN-Private-Talk-Messaging"
 
+
+    },
+    {
+        imgSrc: socialmedia,
+        imgAlt: "Social Media ",
+        projectTitle: " MERN Social Media Application  ",
+        projectDescription: "This is a social media app having all features like, Follow, UnFollow, Like, Comment, Upload images, edit profile, and much more creating using all mern concepts..." ,
+        view: "https://social-media-talk.herokuapp.com",
+        sourceCode: "https://github.com/ravig20/MERN-STACK-SOCIALMEDIA-APP"
+
+
+    },
+    {
+        imgSrc: portfolio,
+        imgAlt: "PORTFOLIO SITE",
+        projectTitle: "React Personal PORTFOLIO",
+        projectDescription: "portfolio site containing all my personal or professional details as well as all my project source code or project URL creating this site using concepts like react js node js, a node Package manager (NPM) using email.js HTML CSS javascript or chakra ui" ,
+        view: "https://ravi-gupta-portfolio.herokuapp.com",
+        sourceCode: "https://github.com/ravig20/MY-PORTFOLIO"
 
     },
     {
@@ -27,14 +48,13 @@ const CardData = [
     {
         imgSrc: jockapp,
         imgAlt: "jock App",
-        projectTitle: " Jocks Applicator Api based on",
+        projectTitle: " Jocks Applicator Api based ",
         projectDescription: "This is a simple javaScprit project for beginners learning how links work how to send a data when user click on a link",
         view: "https://jocks.netlify.app",
         sourceCode: "https://github.com/ravig20/happy-face-jock"
 
 
     },
-   
     {
         imgSrc: PetShopApp,
         imgAlt: "PetShopApp",

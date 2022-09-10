@@ -26,7 +26,7 @@ const ProjectCard = () => {
     )
 }
 
-export default ProjectCard
+export default React.memo(ProjectCard);
 
 const ImageCard = ({ imgSrc, imgAlt, projectTitle, projectDescription, view, sourceCode }) => {
     return (

@@ -14,7 +14,7 @@ const AboutMe = () => {
                         <h3>Hi I'm RAVI GUPTA from Sagar,India</h3>
                     </div>
                     <p>
-                        Hi, I'm a Full-Stack, MERN, Block-Chain Developer Certified by Edureka & Eduonix Learning solution and Also participate in Open Source contribution who is highly passionate about building or creating , creative applications, websites, Smart contract using solidity, increase performance of applications using a concepts of react, creating a REST-Full API, And currently i'm freelancer, loves to build and design responsive applications which make peoples life easy and right now i am looking for such an opportunity where i can start my career and grow  to the next level ..
+                        Hi, I'm a Full-Stack, MERN, Block-Chain Developer Certified by Edureka & Eduonix Learning solution and Also participate in Open Source contribution who is highly passionate about building or creating , creative applications, websites, Smart contract using solidity, increase performance of applications using a concepts of react, creating a REST-Full API, And currently i'm freelancer, loves to build and design responsive applications which make peoples life easy Right now i am looking for such an opportunity where i can start my career and grow  to the next level ..
                     </p>
                 </div>
                 <div className='AboutMe-skills'>

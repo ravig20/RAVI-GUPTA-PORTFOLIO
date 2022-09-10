@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
 }
 
 
@@ -24,12 +25,12 @@ ul {
 
 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-display:swap;
   padding: 5px 0 ;
 }
 .btn {
   padding: 12px 32px;
   font-size: 1rem;
-  /* height: 40px; */
   background: rgb(255, 231, 78);
   color: #222;
   border: 1px solid #fff;

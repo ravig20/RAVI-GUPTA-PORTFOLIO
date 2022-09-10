@@ -100,7 +100,7 @@ const ContactUs = () => {
                 </Text>
 
                 <Text color={"black.500"} mb={2} fontSize="xl" fontFamily={"cursive"} fontWeight="bold">
-                    Please feel free to contact me if you need 
+                     Feel free to contact me if you need 
                     any further information or
                     help.
                 </Text>

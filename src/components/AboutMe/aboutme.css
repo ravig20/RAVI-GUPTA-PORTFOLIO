@@ -20,7 +20,8 @@
     
 }
 .AboutMe-container p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display:swap;
     font-size: 1.4rem;
    text-align: start;
    width: 70%;
@@ -62,18 +63,21 @@
 }
 .my-info p{
     padding: 2%;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-display:swap;
 }
 .my-info ul li{
     padding-left: 10%;
     color: rgb(164, 244, 244);
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-display:swap;
 }
 .skills-container h1{
    text-align: center;
    color: aqua;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin-bottom: 2%;
+   font-display:swap;
 }
 .skills-key{
     max-width: 1140px;
