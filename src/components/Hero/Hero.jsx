@@ -1,9 +1,9 @@
-import React, { lazy, Suspense } from 'react'
+import React, {  Suspense } from 'react'
 import HomeImg from "../../images/home.jpg"
 import { Link } from "react-router-dom"
 import Loder from "../loading/loding"
 import "./hero.css"
-const Typical = lazy(()=>import('react-typical')) 
+import Typical from 'react-typical'
 const Hero = () => {
   return (
      
