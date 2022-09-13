@@ -1,6 +1,6 @@
 import React from 'react'
 import "./aboutme.css"
-import {skillsData} from "../../data/MyprojectDetels"
+import { skillsData } from "../../data/MyprojectDetels"
 
 const AboutMe = () => {
     return (
@@ -38,7 +38,7 @@ const AboutMe = () => {
                         <h1 > Education</h1>
                         <p><strong>Schooling :</strong>&nbsp; Svm Sharda vihar Bhopal</p>
                         <ul>
-                       
+
                             <li>
                                 <strong>CLASS 10th CBSE (English) : </strong> &nbsp;7.4 CGPA
                             </li>
@@ -68,16 +68,18 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            <div className="skills-container">
-            
-                    <h1>- IT  SKILLS -</h1>
-                
-                <div className='skills-key'>
-                {skillsData.map((skill, index)=>(
 
-                    <h1 className='btn' key={index}>{ skill }</h1>
-                ))}
-                
+           
+            <div className="skills-container">
+
+                <h1>- IT  SKILLS -</h1>
+
+                <div className='skills-key'>
+                    {skillsData.map((skill, index) => (
+
+                        <h1 className='btn' key={index}>{skill}</h1>
+                    ))}
+
                 </div>
             </div>
         </div>

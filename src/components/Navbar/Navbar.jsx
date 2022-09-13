@@ -1,7 +1,7 @@
 import React, {  useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FiAlignJustify ,FiX} from "react-icons/fi";
 
 const Navbar = () => {
   const [isOpen, setisopen] = useState(false);
@@ -42,9 +42,9 @@ const Navbar = () => {
       </ul>
       <div onClick={() => setisopen(!isOpen)} className="nav-toggle">
         {isOpen ? (
-          <FaTimes size={20} style={{ color: "white" }} />
+          <FiX size={20} style={{ color: "white" }} />
         ) : (
-          <FaBars size={20} style={{ color: "white" }} />
+          <FiAlignJustify size={20} style={{ color: "white" }} />
         )}
       </div>
     </div>

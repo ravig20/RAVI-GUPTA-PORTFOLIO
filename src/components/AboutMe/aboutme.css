@@ -79,6 +79,9 @@
    margin-bottom: 2%;
    font-display:swap;
 }
+.AboutMe-skills h1{
+    color: aqua;
+}
 .skills-key{
     max-width: 1140px;
     margin: auto;
