@@ -34,7 +34,7 @@ const Hero = () => {
             <Link to="/contact"
               className="btn"
             >
-              hireme
+              Hireme
             </Link>
             <a href="resume.pdf"
               download={"Resume resume.pdf"}

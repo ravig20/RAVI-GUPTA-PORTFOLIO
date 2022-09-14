@@ -75,5 +75,6 @@ export default CardData;
 
 export const skillsData = [
     "HTML5", "CSS", "JAVASCRIPT", "REACT JS", "NODE JS", "EXPRESS js", "MONGODB", "mongoose", "REDUX", "redux-toolkit", "MERN", "axios", "NPM", "RESTAPI", "git", "github", "cloudinary", "bcrypt", "jwttoken", "dotenv", "multer", "nodemailer","emailjs", "socket io", "Chakra Ui", "material Ui", "bootstrap", "heroku", "python", "oops", "hyperledger", "SOLIDITY", "ETHEREUM", "blockchain", "NTFS", "IPFS", "OS", "DBMS", "framework", "http", "https", "cors", "Razorpay", "FULLSTACK","testing","otp support","email support",
-    "payment integration","error handling",
+    "error handling", "payment integration",
 ]
+ 

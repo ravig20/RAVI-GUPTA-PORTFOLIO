@@ -68,8 +68,46 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-
-           
+            <div className="summary">
+                <h1>Professional Summary </h1>
+                <div className="summary-data">
+                    <ul>
+                        <li>
+                            Understanding of HTML, CSS, JavaScript, AND MERN for web development.
+                        </li>
+                        <li>
+                            Excellent knowledge of JavaScript frameworks and libraries (Node, Express, React)
+                        </li>
+                        <li>
+                            Proficient in NoSQL Database technology (MongoDB)
+                        </li>
+                        <li>
+                            Server-side website development using Node JS and No SQL.
+                        </li>
+                        <li>
+                            Strong Knowledge of writing Restful APIs with Node.js using frameworks like Express JS with MongoDB/Postman as backend.
+                        </li>
+                        <li>
+                            Familiarity with State management library tools like Redux, Redux/Toolkit, and Context API.
+                        </li>
+                        <li>
+                            Binding Responsive UI using ChakraUI, MaterialUI, Bootstrap, and Costume CSS.
+                        </li>
+                        <li>
+                            Basic understanding of the use of Git(GitHub) Sockit.io, and Passport Authentication.
+                        </li>
+                        <li>
+                            Familiar with node.js packages like JWT Token Authentication, Bcrypt, Cors, DotEnv EmailJS, and Nodemailer.
+                        </li>
+                        <li>
+                            Ability to merge Payment Gateway, OTP Validation, and Email Services.
+                        </li>
+                        <li>
+                            Understanding of Software architecture, Development methodologies, And Operation systems, DBMS.
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div className="skills-container">
 
                 <h1>- IT  SKILLS -</h1>

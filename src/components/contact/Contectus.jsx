@@ -49,7 +49,7 @@ const ContactUs = () => {
 
             }
             setLoading(true); 
-           await emailjs.send('service_jdwl1xl', 'template_efb8jtf', form, 'T1PcOjidK_ZscRcU1')
+           await emailjs.send('service_swidj3m', 'template_efb8jtf', form, 'T1PcOjidK_ZscRcU1')
            setLoading(false);
            toast({
             title: `Thankyou ${name.toUpperCase()} your message received susscessfully`,
@@ -59,10 +59,9 @@ const ContactUs = () => {
             isClosable: true,
         });
         } catch (error) {
-            setLoading(false);
-            console.log(error)
+            setLoading(false)
             toast({
-                title: `${error}`,
+                title: `${"opps! something wants wrong"}`,
                 position: "top",
                 status: "error",
                 duration: 3000,
